@@ -1,0 +1,59 @@
+/* CSS dựa trên giao diện trang ForgotPasswordPage */
+
+.container_send {
+    background-color: #44b3eb;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container_input {
+    max-width: 450px;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #0379b4;
+    margin-left: 520px;
+  }
+  
+  h1 {
+    position: relative; /* Sử dụng absolute positioning */
+     bottom: -50px; 
+    margin-bottom: 100px;
+    text-align: center; 
+    color: rgb(255, 242, 0);
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+  }
+  
+  .form-input label {
+    font-size: 1rem;
+    color: #4481eb;
+  }
+  
+  .form-input input[type="email"] {
+    padding: 10px;
+    border-radius: 90px;
+    width: 100%;
+    border-color: #0379b4;
+    /* box-shadow: 0 0 2px #0379b4; */
+  }
+  
+  .btnSend {
+    border-radius: 80px;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    background-color: #44b3eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnSend:hover {
+    background-color: #4481eb;
+  }
+  
